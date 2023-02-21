@@ -1,0 +1,44 @@
+import json
+
+companies= [
+        {
+            "Company_name"     : "SuperCompany1",
+            "Number_of_employees" : 19,
+            "Employees" : ["Rick","Sam", "Jay"],
+            "Office_data":
+                {
+                    "country": "Indonesia",
+                    "Address": "22 Cornwall Street"
+                }
+        }
+    ,
+
+        {
+            "Company_name"     : "QuackCompany",
+            "Number_of_employees" : 21,
+            "Employees" : ["Rick","Sam", "Jay"],
+            "Office_data":
+                {
+                    "country": "Indonesia",
+                    "Address": "22 Cornwall Street"
+                }
+        }
+    ]
+# data = json.loads(companies)
+# for company in data:
+#     del company["Office_data"]
+# print(type(data))
+# new_string= json.dumps(data, indent=5)
+# print(new_string)
+
+# with open("states.json") as f:
+#     data = json.load(f)
+
+# for state in data["states"]:
+#     del state["area_codes"]
+
+# with open("new_states.json","w") as f:
+#     json.dump(data, f, indent=2)
+
+with open("api.py" , "w") as f:
+    json.dump(companies, f, indent=2)

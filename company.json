@@ -1,0 +1,28 @@
+[
+  {
+    "Company_name": "SuperCompany1",
+    "Number_of_employees": 19,
+    "Employees": [
+      "Rick",
+      "Sam",
+      "Jay"
+    ],
+    "Office_data": {
+      "country": "Indonesia",
+      "Address": "22 Cornwall Street"
+    }
+  },
+  {
+    "Company_name": "QuackCompany",
+    "Number_of_employees": 21,
+    "Employees": [
+      "Rick",
+      "Sam",
+      "Jay"
+    ],
+    "Office_data": {
+      "country": "Indonesia",
+      "Address": "22 Cornwall Street"
+    }
+  }
+]
